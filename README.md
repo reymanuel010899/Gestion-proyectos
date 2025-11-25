@@ -16,14 +16,16 @@
 ---
 # ******** intruciones para iniciar ******
 
-# Backend
+# 
+cd Gestion-proyectos
 cd backend
 npm install
+add .env  agregue un .env.example 
 npm start
 
 # Frontend
-cd ../frontend/GestionProject
-npm install
+cd ./frontend/GestionProject
+npm install --legacy-peer-deps
 npm run dev
 
 
