@@ -179,7 +179,7 @@ export default function ProjectList({ onSelect, onEdit, filterName, filterStatus
               <td className="db-col-progress">
                 <div className="db-progress-container">
                   <div className="db-progress-bar" style={{ width: `${p.progress}%` }}></div>
-                  <span className="db-progress-text">{p.progress}%</span>
+                  <span className="db-progress-text">{p.progress >  100 ? 100 : p.progress}%</span>
                 </div>
               </td>
 
