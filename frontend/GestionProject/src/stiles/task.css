@@ -1,0 +1,51 @@
+.project-form .form-group {
+  margin-bottom: 1.4rem; /* Aumenta la separación entre cada input */
+}
+
+.project-form .form-textarea {
+  margin-bottom: 1.6rem; /* Un poco más para la descripción */
+}
+
+.custom-alert {
+  width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 1rem;
+
+  background: rgba(120, 20, 20, 0.25); /* rojo oscuro suave */
+  border: 1px solid rgba(200, 50, 50, 0.4);
+  color: #ffb3b3;
+
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  animation: fadeIn 0.25s ease-out;
+}
+
+.alert-close-btn {
+  background: none;
+  border: none;
+  color: #ffb3b3;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.2s ease;
+}
+
+.alert-close-btn:hover {
+  color: #ffe5e5;
+}
+
+/* Animación */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
