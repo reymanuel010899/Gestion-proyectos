@@ -202,7 +202,7 @@ export default function TaskList({ onEdit, asignado, priority }: TaskListProps) 
               </td>
 
               <td className="db-col-description">
-                {t.description || "Sin descripción"}
+                 {t.description ? (t.description.length > 60 ? t.description.slice(0, 60) + "..." : t.description) : "Sin descripción"}
               </td>
 
 

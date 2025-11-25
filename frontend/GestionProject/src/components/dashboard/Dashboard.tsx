@@ -92,7 +92,7 @@ export default function Dashboard({ dashboard }: { dashboard?: DashboardStats })
                     <div key={project.name} className="db-progress-item">
                       <div className="db-progress-item-header">
                         <span className="db-progress-name">{project.name}</span>
-                        <span className="db-progress-percentage">{project.progress}%</span>
+                        <span className="db-progress-percentage">{project.progress > 100 ? 100 : project.progress}%</span>
                       </div>
                       <div className="db-progress-bar-container">
                         <div
