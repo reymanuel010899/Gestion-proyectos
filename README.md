@@ -14,6 +14,19 @@
 * **Tiempo Dedicado:** ~2 dias
 
 ---
+# ******** intruciones para iniciar ******
+
+# Backend
+cd backend
+npm install
+npm start
+
+# Frontend
+cd ../frontend/GestionProject
+npm install
+npm run dev
+
+
 
 ## 🛠️ Stack Tecnológico Elegido
 
